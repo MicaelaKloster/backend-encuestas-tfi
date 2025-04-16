@@ -57,31 +57,34 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         <ul class="links collapse " ${ isNormalMode ? 'id="modules-links"' : 'id="xs-modules-links"' }>
                             <li class="link">
                                 <a href="modules/AppModule.html" data-type="entity-link" >AppModule</a>
+                            </li>
+                            <li class="link">
+                                <a href="modules/EncuestasModule.html" data-type="entity-link" >EncuestasModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-bs-toggle="collapse" ${ isNormalMode ?
-                                            'data-bs-target="#controllers-links-module-AppModule-215f693b609e79bc94c3e9aca4d4fa338aedbd5791bfe1d4273eba93cbffa14f972d99a8834e7efbad34a39d29131f467a33d127aaddcaa843ca0deee843bd0f"' : 'data-bs-target="#xs-controllers-links-module-AppModule-215f693b609e79bc94c3e9aca4d4fa338aedbd5791bfe1d4273eba93cbffa14f972d99a8834e7efbad34a39d29131f467a33d127aaddcaa843ca0deee843bd0f"' }>
+                                            'data-bs-target="#controllers-links-module-EncuestasModule-8b526bde9e2eb469afe832d10897abc70fe2b45e1a09c040e6addd890319431c1e2285a88938e75d72deef9bbc7bebd59fdee652ff744a7446950fa19d330255"' : 'data-bs-target="#xs-controllers-links-module-EncuestasModule-8b526bde9e2eb469afe832d10897abc70fe2b45e1a09c040e6addd890319431c1e2285a88938e75d72deef9bbc7bebd59fdee652ff744a7446950fa19d330255"' }>
                                             <span class="icon ion-md-swap"></span>
                                             <span>Controllers</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="controllers-links-module-AppModule-215f693b609e79bc94c3e9aca4d4fa338aedbd5791bfe1d4273eba93cbffa14f972d99a8834e7efbad34a39d29131f467a33d127aaddcaa843ca0deee843bd0f"' :
-                                            'id="xs-controllers-links-module-AppModule-215f693b609e79bc94c3e9aca4d4fa338aedbd5791bfe1d4273eba93cbffa14f972d99a8834e7efbad34a39d29131f467a33d127aaddcaa843ca0deee843bd0f"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="controllers-links-module-EncuestasModule-8b526bde9e2eb469afe832d10897abc70fe2b45e1a09c040e6addd890319431c1e2285a88938e75d72deef9bbc7bebd59fdee652ff744a7446950fa19d330255"' :
+                                            'id="xs-controllers-links-module-EncuestasModule-8b526bde9e2eb469afe832d10897abc70fe2b45e1a09c040e6addd890319431c1e2285a88938e75d72deef9bbc7bebd59fdee652ff744a7446950fa19d330255"' }>
                                             <li class="link">
-                                                <a href="controllers/AppController.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >AppController</a>
+                                                <a href="controllers/EncuestasController.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >EncuestasController</a>
                                             </li>
                                         </ul>
                                     </li>
                                 <li class="chapter inner">
                                     <div class="simple menu-toggler" data-bs-toggle="collapse" ${ isNormalMode ?
-                                        'data-bs-target="#injectables-links-module-AppModule-215f693b609e79bc94c3e9aca4d4fa338aedbd5791bfe1d4273eba93cbffa14f972d99a8834e7efbad34a39d29131f467a33d127aaddcaa843ca0deee843bd0f"' : 'data-bs-target="#xs-injectables-links-module-AppModule-215f693b609e79bc94c3e9aca4d4fa338aedbd5791bfe1d4273eba93cbffa14f972d99a8834e7efbad34a39d29131f467a33d127aaddcaa843ca0deee843bd0f"' }>
+                                        'data-bs-target="#injectables-links-module-EncuestasModule-8b526bde9e2eb469afe832d10897abc70fe2b45e1a09c040e6addd890319431c1e2285a88938e75d72deef9bbc7bebd59fdee652ff744a7446950fa19d330255"' : 'data-bs-target="#xs-injectables-links-module-EncuestasModule-8b526bde9e2eb469afe832d10897abc70fe2b45e1a09c040e6addd890319431c1e2285a88938e75d72deef9bbc7bebd59fdee652ff744a7446950fa19d330255"' }>
                                         <span class="icon ion-md-arrow-round-down"></span>
                                         <span>Injectables</span>
                                         <span class="icon ion-ios-arrow-down"></span>
                                     </div>
-                                    <ul class="links collapse" ${ isNormalMode ? 'id="injectables-links-module-AppModule-215f693b609e79bc94c3e9aca4d4fa338aedbd5791bfe1d4273eba93cbffa14f972d99a8834e7efbad34a39d29131f467a33d127aaddcaa843ca0deee843bd0f"' :
-                                        'id="xs-injectables-links-module-AppModule-215f693b609e79bc94c3e9aca4d4fa338aedbd5791bfe1d4273eba93cbffa14f972d99a8834e7efbad34a39d29131f467a33d127aaddcaa843ca0deee843bd0f"' }>
+                                    <ul class="links collapse" ${ isNormalMode ? 'id="injectables-links-module-EncuestasModule-8b526bde9e2eb469afe832d10897abc70fe2b45e1a09c040e6addd890319431c1e2285a88938e75d72deef9bbc7bebd59fdee652ff744a7446950fa19d330255"' :
+                                        'id="xs-injectables-links-module-EncuestasModule-8b526bde9e2eb469afe832d10897abc70fe2b45e1a09c040e6addd890319431c1e2285a88938e75d72deef9bbc7bebd59fdee652ff744a7446950fa19d330255"' }>
                                         <li class="link">
-                                            <a href="injectables/AppService.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >AppService</a>
+                                            <a href="injectables/EncuestasService.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >EncuestasService</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -97,7 +100,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </div>
                             <ul class="links collapse " ${ isNormalMode ? 'id="controllers-links"' : 'id="xs-controllers-links"' }>
                                 <li class="link">
-                                    <a href="controllers/AppController.html" data-type="entity-link" >AppController</a>
+                                    <a href="controllers/EncuestasController.html" data-type="entity-link" >EncuestasController</a>
                                 </li>
                             </ul>
                         </li>
@@ -110,7 +113,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </div>
                             <ul class="links collapse " ${ isNormalMode ? 'id="injectables-links"' : 'id="xs-injectables-links"' }>
                                 <li class="link">
-                                    <a href="injectables/AppService.html" data-type="entity-link" >AppService</a>
+                                    <a href="injectables/EncuestasService.html" data-type="entity-link" >EncuestasService</a>
                                 </li>
                             </ul>
                         </li>
